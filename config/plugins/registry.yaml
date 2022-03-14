@@ -1,0 +1,25 @@
+version: "1.0"
+plugins:
+- id: "org.craftercms.plugin.test"
+  version:
+    major: 3
+    minor: 0
+    patch: 4
+  type: "site"
+  pluginUrl: "https://github.com/craftercms/site-plugin-example"
+  installationDate: "2022-03-14T17:22:44.274993Z"
+  files:
+  - path: "config/studio/scripts/rest/plugins/org/craftercms/plugin/test/test/greet.get.groovy"
+  - path: "config/studio/static-assets/plugins/org/craftercms/plugin/test/apps/test/index.html"
+  - path: "scripts/filters/plugins/org/craftercms/plugin/test/test.groovy"
+  - path: "scripts/rest/plugins/org/craftercms/plugin/test/test.get.groovy"
+  - path: "config/studio/content-types/component/plugins/org/craftercms/plugin/test/test/controller.groovy"
+  - path: "config/studio/content-types/component/plugins/org/craftercms/plugin/test/test/form-definition.xml"
+  - path: "config/studio/content-types/component/plugins/org/craftercms/plugin/test/test/config.xml"
+  - path: "scripts/components/plugins/org/craftercms/plugin/test/test.groovy"
+  - path: "scripts/controllers/plugins/org/craftercms/plugin/test/test.get.groovy"
+  - path: "templates/plugins/org/craftercms/plugin/test/test-component.ftl"
+  - path: "templates/plugins/org/craftercms/plugin/test/test-controller.ftl"
+  - path: "config/studio/scripts/classes/plugins/org/craftercms/plugin/test/Greeter.groovy"
+  - path: "static-assets/plugins/org/craftercms/plugin/test/images/tux.jpg"
+  config: []
