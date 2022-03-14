@@ -23,3 +23,14 @@ plugins:
   - path: "config/studio/scripts/classes/plugins/org/craftercms/plugin/test/Greeter.groovy"
   - path: "static-assets/plugins/org/craftercms/plugin/test/images/tux.jpg"
   config: []
+- id: "org.craftercms.plugin.tidio"
+  version:
+    major: 1
+    minor: 0
+    patch: 3
+  type: "site"
+  pluginUrl: "https://github.com/craftercms/chatbot-plugin/tree/tidio"
+  installationDate: "2022-03-14T17:23:54.514622Z"
+  files:
+  - path: "templates/plugins/org/craftercms/plugin/tidio/body_bottom.ftl"
+  config: []
