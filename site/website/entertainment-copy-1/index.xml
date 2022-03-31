@@ -1,20 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--
-  ~ Copyright (C) 2007-2022 Crafter Software Corporation. All Rights Reserved.
-  ~
-  ~ This program is free software: you can redistribute it and/or modify
-  ~ it under the terms of the GNU General Public License version 3 as published by
-  ~ the Free Software Foundation.
-  ~
-  ~ This program is distributed in the hope that it will be useful,
-  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
-  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-  ~ GNU General Public License for more details.
-  ~
-  ~ You should have received a copy of the GNU General Public License
-  ~ along with this program.  If not, see <http://www.gnu.org/licenses/>.
-  --><page>
-	<content-type>/page/category-landing</content-type>	<display-template>/templates/web/pages/category-landing.ftl</display-template>
+<page>
+	<content-type>/page/category-landing</content-type>
+	<display-template>/templates/web/pages/category-landing.ftl</display-template>
+	<no-template-required/>
 	<merge-strategy>inherit-levels</merge-strategy>
 	<objectGroupId>191628da</objectGroupId>
 	<objectId>191628da-e7f0-44a3-97eb-cfd6bf26cad9</objectId>
@@ -26,9 +14,12 @@
 	<folder-name>entertainment-copy-1</folder-name>
 	<createdDate>2022-03-31T21:30:16.091Z</createdDate>
 	<createdDate_dt>2022-03-31T21:30:16.091Z</createdDate_dt>
-	<lastModifiedDate>2022-03-31T21:30:16.091Z</lastModifiedDate>
-	<lastModifiedDate_dt>2022-03-31T21:30:16.091Z</lastModifiedDate_dt>
+	<lastModifiedDate>2022-03-31T21:30:18.724Z</lastModifiedDate>
+	<lastModifiedDate_dt>2022-03-31T21:30:18.724Z</lastModifiedDate_dt>
 	<category_s>entertainment</category_s>
 	<max_articles_i>10</max_articles_i>
 	<articles_title_t>Entertainment</articles_title_t>
+	<disabled>false</disabled>
+	<header_o item-list="true"/>
+	<left_rail_o item-list="true"/>
 </page>
